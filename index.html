@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HireGo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -86,21 +87,21 @@
         <!-- service section -->
         <section class="py-14 bg-black rounded-[2rem]">
             <div class="container mx-auto text-white">
-                <h2 class="mb-12 text-4xl font-medium leading-tight text-center">You can do it all<br>
+                <h2 class="mb-12 text-4xl font-medium leading-tight text-center">
+                    You can do it all<br>
                     With HireGO
                 </h2>
                 <div class="flex gap-5">
                     <div class="p-8 bg-gray-700 rounded-2xl basis-1/2">
                         <h3 class="mb-4 text-2xl font-medium">Hire international talent</h3>
                         <p class="font-light">Instead of setting up your own entities, experience the speed of
-                            HireGO’s
+                            HireGO's
                             automated global
                             hiring. Create compliant employment agreements and set up payroll and benefits—in a
                             matter
                             of clicks.</p>
-                        <button type="button" class="px-6 py-3 my-5 text-black bg-white rounded-3xl">Hire
-                            international
-                            talent
+                        <button type="button" class="px-6 py-3 my-5 text-black bg-white rounded-3xl">
+                            Hire international talent
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="inline ml-2 size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -118,8 +119,8 @@
                                     access
                                     management tools to
                                     streamline paperwork, onboarding, and payments.</p>
-                                <button type="button" class="px-6 py-3 mt-5 text-black bg-white w-60 rounded-3xl">Hire
-                                    contractors
+                                <button type="button" class="px-6 py-3 mt-5 text-black bg-white w-60 rounded-3xl">
+                                    Hire contractors
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -135,9 +136,8 @@
                                     contractors to
                                     full-timers, all under one platform.
                                 </p>
-                                <button type="button"
-                                    class="px-6 py-3 mt-5 text-black bg-white w-60 rounded-3xl">Convert
-                                    contractors
+                                <button type="button" class="px-6 py-3 mt-5 text-black bg-white w-60 rounded-3xl">
+                                    Convert contractors
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -148,30 +148,244 @@
                         </div>
                     </div>
                 </div>
+                <hr class="h-px my-16 border-0 bg-slate-700">
+                <div class="flex items-center flex-1 gap-5 my-5 justify-evenly">
+                    <div>
+                        <p class="text-6xl font-medium leading-[1.5] text-blue-400">5000+</p>
+                        <p>Loved by 5,000+ Team Members</p>
+                    </div>
+                    <div>
+                        <p class="text-6xl font-medium leading-[1.5] text-blue-400">25000+</p>
+                        <p>Trusted by 25,000+ customers</p>
+                    </div>
+                    <div>
+                        <p class="text-6xl font-medium leading-[1.5] text-blue-400">48 hrs</p>
+                        <p>Onboard talent in as little as 48 hours</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <div class="hr">
-                    <hr class="bg-gray-500">
+        <!-- business section -->
+        <section class="py-14">
+            <div class="container mx-auto">
+                <h2 class="mb-10 text-4xl font-medium text-center">Take your business <br>
+                    to the next level.
+                </h2>
+                <div class="flex items-center justify-between gap-8 mb-10">
+                    <div class="basis-1/2">
+                        <h3 class="text-[#FD852F] text-3xl font-medium">
+                            Culture and performance.
+                            <br>It's up and up.
+                        </h3>
+                        <p class="my-5">Develop feedback loops, set KPIs and design custom performance reviews. Quickly
+                            build a
+                            positive
+                            performance culture for your business — where everyone is aiming for the same goals.</p>
+                        <button type="button" class="px-6 py-3 border border-black rounded-3xl">
+                            Performance Management
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="inline ml-2 size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="basis-1/2">
+                        <img class="object-cover w-full" src="./assets/images/service_2.png" alt="Service Image">
+                    </div>
                 </div>
 
-                <div class="flex">
-                    <div>
-                        <p>5000+</p>
-                        <p></p>
+                <div class="flex items-center justify-between gap-8">
+                    <div class="basis-1/2">
+                        <img class="object-cover w-full" src="./assets/images/service_3.png" alt="Service Image">
                     </div>
-                    <div>
-                        <p>25000+</p>
-                        <p></p>
+                    <div class="basis-1/2">
+                        <h3 class="text-[#9149ED] text-3xl font-medium">
+                            It's payroll software.
+                            <br>Just faster.
+                        </h3>
+                        <p class="my-5">Save your time, pay your people with automated payroll. Enjoy the benefits of
+                            Real Time Information (RTI) and take care of workforce planning - all in one simple place.
+                        </p>
+                        <button type="button" class="px-6 py-3 border border-black rounded-3xl">Payroll Features
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="inline ml-2 size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </button>
                     </div>
-                    <div>
-                        <p>48 hrs</p>
-                        <p></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- team section -->
+        <section class="bg-black py-14">
+            <div class="container relative mx-auto">
+                <h2 class="mb-10 text-4xl font-medium text-center text-white">
+                    We help teams grow faster <br>
+                    across borders.
+                </h2>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="flex justify-between overflow-hidden rounded-2xl">
+                                <div class="flex flex-col justify-center p-10 space-y-5 bg-blue-300 basis-1/2">
+                                    <img class="w-10" src="./assets/images/slider_text_img.png" alt="slider_text">
+                                    <h3 class="text-2xl font-semibold">“Saving time and simplifying the process and
+                                        saving money. It
+                                        was the triple trifecta.”</h3>
+                                    <p>Ally Fekaiki, CEO - Soho, New York</p>
+                                    <button type="button"
+                                        class="px-6 py-2 bg-white border border-black w-44 rounded-3xl">
+                                        Learn More
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="bg-white basis-1/2">
+                                    <img class="object-cover w-full" src="./assets/images/slider.png"
+                                        alt="collaboration Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex justify-between overflow-hidden rounded-2xl">
+                                <div class="flex flex-col justify-center p-10 space-y-5 bg-blue-300 basis-1/2">
+                                    <img class="w-10" src="./assets/images/slider_text_img.png" alt="slider_text">
+                                    <h3 class="text-2xl font-semibold">“Saving time and simplifying the process and
+                                        saving money. It
+                                        was the triple trifecta.”</h3>
+                                    <p>Ally Fekaiki, CEO - Soho, New York</p>
+                                    <button type="button"
+                                        class="px-6 py-2 bg-white border border-black w-44 rounded-3xl">
+                                        Learn More
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="bg-white basis-1/2">
+                                    <img class="object-cover w-full" src="./assets/images/slider.png"
+                                        alt="collaboration Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex justify-between overflow-hidden rounded-2xl">
+                                <div class="flex flex-col justify-center p-10 space-y-5 bg-blue-300 basis-1/2">
+                                    <img class="w-10" src="./assets/images/slider_text_img.png" alt="slider_text">
+                                    <h3 class="text-2xl font-semibold">“Saving time and simplifying the process and
+                                        saving money. It
+                                        was the triple trifecta.”</h3>
+                                    <p>Ally Fekaiki, CEO - Soho, New York</p>
+                                    <button type="button"
+                                        class="px-6 py-2 bg-white border border-black w-44 rounded-3xl">
+                                        Learn More
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="bg-white basis-1/2">
+                                    <img class="object-cover w-full" src="./assets/images/slider.png"
+                                        alt="collaboration Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-center mb-8">
+                    <!-- pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- navigation buttons -->
+                    <div class="swiper-button-prev custom-prev"></div>
+                    <div class="swiper-button-next custom-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- get started section -->
+        <section class="py-14">
+            <div class="container mx-auto">
+                <h2 class="mb-10 text-4xl font-medium text-center">
+                    Get started with HireGo <br>
+                    in three easy steps.
+                </h2>
+                <div class="flex gap-5">
+                    <div class="basis-1/2">
+                        <img class="object-cover w-full" src="./assets/images/get_started.png" alt="Getting started">
+                    </div>
+                    <div class="basis-1/2">
+                        <div class="flex flex-col h-full gap-3">
+                            <div class="flex flex-1 gap-3 p-8 bg-slate-100 rounded-xl">
+                                <div
+                                    class="bg-[#9149ED] text-white w-12 flex justify-center items-center rounded-full h-8 text-center ">
+                                    1
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-medium">Book a call</h3>
+                                    <p class="my-4">Book a call with our global workforce consultants. We'll set you up
+                                        with
+                                        a free
+                                        account ready to suit your team's needs.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex flex-1 gap-3 p-8 bg-slate-100 rounded-xl">
+                                <div
+                                    class="bg-[#9149ED] text-white w-10 flex justify-center items-center rounded-full h-8 text-center">
+                                    2
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-medium">Add your people</h3>
+                                    <p class="my-4">From new hires to your existing workforce, onboard effortlessly with
+                                        our
+                                        self-serve
+                                        platform.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex flex-1 gap-3 p-8 bg-slate-100 rounded-xl">
+                                <div
+                                    class="bg-[#9149ED] text-white w-12 flex justify-center items-center rounded-full h-8 text-center ">
+                                    3
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-medium">Dedicated onboarding</h3>
+                                    <p class="my-4">From navigating local laws to support for your team members, our
+                                        dedicated team will
+                                        help you get set up seamlessly.
+                                    </p>
+                                    <button type="button" class="px-6 py-2 border border-black rounded-3xl">
+                                        Start Now
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="inline ml-2 size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
