@@ -609,6 +609,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -627,6 +632,10 @@ html {
 
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .inline{
@@ -657,6 +666,10 @@ html {
 
 .min-w-full{
   min-width: 100%;
+}
+
+.max-w-full{
+  max-width: 100%;
 }
 
 .flex-1{
@@ -734,11 +747,6 @@ html {
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .bg-gray-700{
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -766,14 +774,13 @@ html {
   padding: 2rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-14{
@@ -784,6 +791,11 @@ html {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .text-center{
@@ -838,8 +850,4 @@ html {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hr {
-  margin: 80px 0 !important;
 }

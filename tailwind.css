@@ -9,3 +9,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
   }
 }
+
+.hr {
+  margin: 80px 0 !important;
+}
