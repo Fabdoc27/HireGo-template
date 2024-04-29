@@ -15,11 +15,11 @@
 }
 
 .custom-prev {
-  @apply absolute text-sm bg-gray-700 rounded-full size-8 top-9 left-[42%];
+  @apply absolute text-sm bg-gray-700 rounded-full size-8 top-9 md:left-[42%] left-[25%];
 }
 
 .custom-next {
-  @apply absolute text-sm bg-gray-700 rounded-full size-8 top-9 right-[42%];
+  @apply absolute text-sm bg-gray-700 rounded-full size-8 top-9 right-[25%] md:right-[42%];
 }
 
 .swiper-button-prev:after,

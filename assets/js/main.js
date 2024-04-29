@@ -21,10 +21,10 @@ const swiper = new Swiper('.swiper', {
     // parallax: true,
 
     // autoplay
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,  // Keep autoplay running after user interaction
-    // },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,  // Keep autoplay running after user interaction
+    },
 
     // Navigation arrows
     navigation: {
