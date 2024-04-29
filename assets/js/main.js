@@ -32,3 +32,12 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+// mobile menu show/hide
+const mobileBtn = document.querySelector(".menu-btn");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+mobileBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    mobileMenu.classList.toggle("hidden")
+});
