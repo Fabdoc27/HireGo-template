@@ -99,6 +99,6 @@
     @apply flex flex-col justify-between pt-5 md:pt-10 md:flex-row;
   }
   .bottom_footer_list {
-    @apply bottom_footer_list;
+    @apply flex flex-col gap-3 text-gray-500 md:gap-5 md:flex-row;
   }
 }
